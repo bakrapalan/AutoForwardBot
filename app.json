@@ -65,7 +65,7 @@
         },
         "TARGET_CHANNEL": {
             "description": "A channel where bot will send files. channel id with -100xxxxxxx, Get this value from @TGIDsBot",
-            "value": "-1001511960365",
+            "value": "-1001595013671",
             "required": true
         }
     },
