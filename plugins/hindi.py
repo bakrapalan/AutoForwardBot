@@ -1,6 +1,6 @@
 import re
- from telethon import events
- from info import ADMINS, TARGET_CHANNEL
+from telethon import events
+from info import ADMINS, TARGET_CHANNEL
 
  chat = TARGET_CHANNEL
  @client.on(events.NewMessage(chat=chat))
