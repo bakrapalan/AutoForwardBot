@@ -1,10 +1,9 @@
 import re
-from telethon import events
+from telethon import events, Client
 from info import ADMINS, TARGET_CHANNEL
 
- chat = TARGET_CHANNEL
- @client.on(events.NewMessage(chat=chat))
- async def file_del(x):
+@client.on(events.NewMessage(chat=TARGRT_CHANNEL))
+async def file_del(x):
    d=0
      if x.media and hasattr(x.media, "document"):
          name = x.file.name
