@@ -4,7 +4,7 @@ from info import ADMINS, TARGET_CHANNEL
 
 chat = TARGET_CHANNEL
 @client.on(events.NewMessage(chat=chat)
-async def file_del(x):
+           async def file_del(x):
            d=0
            if x.media and hasattr(x.media, "document"):
            name = x.file.name
